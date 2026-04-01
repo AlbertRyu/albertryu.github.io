@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yunxiao LIU</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-inner">
+        <a href="index.html" class="nav-name">Home</a>
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="hero">
+        <h1>Yunxiao LIU<br /><em>physicist &amp; tool-builder</em></h1>
+        <p class="hero-bio">
+          Physics student at TU München, working on single crystals with
+          magnetism. When experiments generate more data than insight, I write
+          code. I build data pipelines, measurement tooling, and visualization
+          apps — occasionally they're even reusable. Outside the lab I run a
+          homelab on a Raspberry Pi, bouldering when my fingers allow, and cook
+          whenever the fridge cooperates.
+        </p>
+        <div class="hero-links">
+          <a href="https://github.com/AlbertRyu" target="_blank" rel="noopener">
+            ↗ GitHub
+          </a>
+          <a
+            href="https://linkedin.com/in/yunxiao-liu-b6513029b/"
+            target="_blank"
+            rel="noopener"
+          >
+            ↗ LinkedIn
+          </a>
+          <a href="about.html"> → About me </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">PPMS ToolKit</span>
+              <span class="card-year">2024 – present</span>
+            </div>
+            <p class="card-desc">
+              A pip-installable Python library for managing and visualizing
+              Quantum Design PPMS data (VSM, Heat Capacity). Ships a Qt6 GUI
+              with customizable plot legends, curve toggling, and automatic
+              ZFC/FC mode detection. Backed by SQLite + Parquet caching for fast
+              repeated loading.
+            </p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">PySide6</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">Parquet</span>
+                <span class="tag">matplotlib</span>
+              </div>
+              <a
+                class="card-link"
+                href="https://github.com/AlbertRyu/PPMS_ToolKit"
+                target="_blank"
+                rel="noopener"
+                >GitHub ↗</a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">VSM Visualizer</span>
+              <span class="card-year">2025</span>
+            </div>
+            <p class="card-desc">
+              Lightweight desktop viewer for PPMS VSM data. Split-panel UI with
+              a file browser and live matplotlib preview, distributed as a
+              standalone .exe — no installation required.
+            </p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">DearPyGui</span>
+                <span class="tag">matplotlib</span>
+              </div>
+              <a
+                class="card-link"
+                href="https://github.com/AlbertRyu/vsm_visualizer"
+                target="_blank"
+                rel="noopener"
+                >GitHub ↗</a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Trade Republic → Beancount</span>
+              <span class="card-year">2025</span>
+            </div>
+            <p class="card-desc">
+              CLI tool that parses Trade Republic PDF account statements and
+              converts them into Beancount-compatible plain-text accounting
+              transactions.
+            </p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">PDF parsing</span>
+                <span class="tag">Beancount</span>
+              </div>
+              <a
+                class="card-link"
+                href="https://github.com/AlbertRyu/trade-republic-to-beancount"
+                target="_blank"
+                rel="noopener"
+                >GitHub ↗</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Recipe App</span>
+              <span class="card-year">2025</span>
+            </div>
+            <p class="card-desc">
+              Full-stack household recipe manager with ingredient inventory tracking,
+              expiration alerts, and per-household data isolation. Integrates an
+              OpenAI-compatible LLM API (Mistral) for AI-powered meal suggestions
+              based on available ingredients.
+            </p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">FastAPI</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Mistral</span>
+              </div>
+              <a class="card-link" href="https://github.com/Yunjia00/Recipe-app" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>&copy; 2026 Yunxiao LIU</footer>
+  </body>
+</html>
